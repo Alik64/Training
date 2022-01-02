@@ -5,4 +5,4 @@ let str = ""
 for (let i = 0; i < alphabet.length; i++) {
     str += alphabet[i]
 }
-console.log(str)
+console.log(str, "\n")
