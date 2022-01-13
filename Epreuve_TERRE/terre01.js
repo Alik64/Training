@@ -1,3 +1,4 @@
+//Afficheur nom de programme
 // Créez un programme qui affiche son nom de fichier.
 // Exemples d’utilisation :
 // $> node exo.js

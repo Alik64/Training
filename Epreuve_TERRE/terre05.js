@@ -13,7 +13,7 @@ let arg1 = Number(process.argv[2])
 let arg2 = Number(process.argv[3])
 
 const division = (arg1, arg2) => {
-    if (arg2 > arg1 || arg2 === 0 || isNaN(arg1) || isNaN(arg2)) {
+    if (arg2 > arg1 || arg2 === 0 || isNaN(arg1 || arg2)) {
         console.log("erreur")
         return
     }
